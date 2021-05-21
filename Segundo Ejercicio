@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio DOS</title>
+</head>
+<body>
+    <form action="mailto:luisin40@gmail.com">
+        <div>
+            <label for="nombre">
+                Nombre
+            </label>
+            <input
+                type="Nombre"
+                name="Nombre"
+                id="Nombre"
+                tittle="Nombre"
+                placeholder="Nombre"
+            >
+        </div>
+
+        <div>
+            <label for="email">
+                E-mail
+             </label>
+             <input
+                type="email"
+                name="email"
+                id="email"
+                tittle="Ingrese su email"
+                placeholder="Ingrese su email"
+             >
+        </div>
+
+        <div>
+            <label for="paises">
+                Pais
+            </label>
+            <select name="paises" id="paises">
+                <option value="1">RD</option>
+                <option value="2">BRA</option>
+                <option value="3">US</option>
+            </select>
+        </div>
+        <div>
+            <label for="mensaje">
+                Mensaje
+            </label>
+            <textarea
+                name="mensaje"
+                id="mensaje"
+                rows="10"></textarea>
+        </div>
+
+        <input type="submit" value="Enviar correo"
+    </form>
+</body>
+</html>
