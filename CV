@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <tittle>Curriculum</tittle>
+    <link rel="stylesheet" type="text/css" href="referencias3.css"/>
+</head>
+
+<body>
+    <div class="box-outer">
+        <div class="resume-box">
+            <div class="box-1">
+                <img src="pic.jpg.JPG" class="profile">
+                <div class="content">
+                <h1>Acerca de Mi</h1>
+                <p>
+                    Informacion Personal
+                    <br/><br/>
+                    Mas informacion personal
+                </p>
+
+                <h1>Habilidades</h1>
+                <p>Abogado</p>
+                <div id="progress"></div>
+
+                <p>HTML</p>
+                <div id="progress1"></div>
+
+                <p>CSS</p>
+                <div id="progress2"></div>
+
+                <p>Java</p>
+                <div id="progress3"></div>
+
+            </div>
+            </div>
+
+            <div class="box-2">
+                <div class="intro">
+                    <h1>Ernesto Perez</h1>
+                    <hr class="hr"/>
+                    <div class="clearfix"></div>
+                    <p class="intro-p">Direccion: Federico Geraldino No.69</p>
+                    <p>Celular: 849-352-8491</p>
+                    <p>Email: luisin40@gmail.com</p>
+                </div> 
+
+                <div class="content-2">
+                    <h1 class="head">Experiencia</h1>
+                    <p class="para-1">Auxiliar, oficina de abogados independientes (2014-2019)</p>
+                    <p class="para-2">
+                        Descripcion del Primer Trabajo
+                    </p>
+
+                    <p class="para-1">Abogado, oficina de abogados independientes (2019 -)</p>
+                    <p class="para-2">
+                        Descripcion del Segundo Trabajo
+                    </p>
+                </div>
+
+                
+                <div class="content-2">
+                    <h1 class="head">Educacion</h1>
+                    <p class="para-1">Bachiller</p>
+                    <p class="para-2">
+                        Colegio Veritas
+                    </p>
+
+                    <p class="para-1">Licenciatura</p>
+                    <p class="para-2">
+                        Universidad Iberoamericana
+                    
+                    </p>
+
+                    <p class="para-1">Maestria</p>
+                    <p class="para-2">
+                        Unapec
+                    
+                    </p>
+
+                </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
